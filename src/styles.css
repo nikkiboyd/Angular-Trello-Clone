@@ -82,6 +82,12 @@
   font-size: 14px;
 }
 
+#other-btns {
+  float: right;
+  width: 155px;
+  height: 33px;
+}
+
 .header-search {
   float: left;
   margin: 0 8px 0 0;
