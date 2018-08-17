@@ -1,27 +1,45 @@
-# TrelloClone
+# Trello Clone
+### Rebuilding the fun & flexible application for getting more done
+#### _Nikki Boyd | August 17, 2018_
+#### _Javascript Independent Project | Week 3_
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
-## Development server
+# _About the App_
+This application showcases my AngularJS experience by rebuilding the popular project management application, Trello!
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The first phase will focus on creating the view of a new board, including lists with cards.
 
-## Code scaffolding
+# _Specifications_
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Necessary Features & Functionality
+| Feature | Description | Notes |
+|--|--|--|
+| New board | Display view as if a user had created a new, empty board | Default colors |
 
-## Build
+### Secondary Features & Functionality
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+# _Installation for OSX_
+- Download the repository from GitHub (https://github.com/nikkiboyd/Trello-Clone)
+- Install Node.js on your machine
+- Run npm install to install all necessary packages
+- Run ng serve --open to run the application in your browser
 
-## Running unit tests
+# _Technologies_
+- Javascript ES6
+- jQuery
+- Karma
+- Jasmine
+- Webpack
+- ESlint
+- Babel
+- Bootstrap
+- HTML
+- CSS
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# _Contact_
+Please email Nikki Boyd at boyd.nikki@icloud.com with any questions.
 
-## Running end-to-end tests
+# _License_
+This software is licensed under the MIT license.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2018 Nikki Boyd
