@@ -15,7 +15,7 @@ export class ListsComponent {
     new Card('test'),
     new Card('test again')
   ];
-
+  
   newList(listToCreate: List) {
     this.clickSender.emit(listToCreate);
   }
