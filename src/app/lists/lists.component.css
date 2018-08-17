@@ -40,6 +40,10 @@ min-height: 40px;
   color: #C0D3E4;
   font-size: 14px;
   text-align: left;
+  float: right;
+  position: relative;
+  left: 40px;
+  bottom: 200px;
 }
 
 .new-card-button {
