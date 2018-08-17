@@ -1,3 +1,5 @@
-<p>
-  lists works!
-</p>
+<div class="stack">
+  <div class="card" *ngFor="let currentList of childAllLists">
+    <h4>{{currentList.title}}</h4>
+  </div>
+</div>

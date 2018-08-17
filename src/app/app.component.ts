@@ -10,6 +10,7 @@ import { Board } from './models/board.model';
 })
 
 export class AppComponent {
+  currentBoard: string = "wtf";
   allLists: List[] = [
     new List(
       'Today'),
