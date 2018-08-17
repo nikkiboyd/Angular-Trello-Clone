@@ -14,21 +14,21 @@ export class AppComponent {
     new List(
       'Today'),
 
-      new List(
-        'Tomorrow')
+    new List(
+      'Tomorrow')
   ];
 
-  selectedCard = null;
+  selectedList = null;
 
-  editCard(clickedCard) {
-    this.selectedCard = clickedCard;
+  newList(clickedNewList) {
+    this.selectedList = clickedNewList;
   }
 
-  finishedEditing() {
-    this.selectedCard = null;
+  saveList() {
+    this.selectedList = null;
   }
 
-  addCard(newCard: Card) {
-    this.masterBoardList.push(newCard);
+  addList(newList: List) {
+    this.allLists.push(newList);
   }
 }
