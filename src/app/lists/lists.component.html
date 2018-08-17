@@ -1,5 +1,13 @@
+<div class="board-header">
+  <nav>
+    <button class="header-button">Board Name</button>
+    <button class="header-button">Another Button</button>
+  </nav>
+
+
+</div>
 <div class="stack">
-  <div class="card" *ngFor="let currentList of childAllLists">
-    <h4>{{currentList.title}}</h4>
+  <div class="list" *ngFor="let currentList of childAllLists">
+    <h4 class="list-header">{{currentList.title}}</h4>
   </div>
 </div>
