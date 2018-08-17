@@ -1,5 +1,6 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { List } from '../models/list.model';
+import { Card } from '../models/card.model';
 
 @Component({
   selector: 'app-lists',
@@ -9,6 +10,11 @@ import { List } from '../models/list.model';
 export class ListsComponent {
   @Input() childAllLists: List[];
   @Output() clickSender = new EventEmitter();
+
+  currentProjects: Card[] = [
+    new Card('test'),
+    new Card('test again')
+  ];
 
   newList(listToCreate: List) {
     this.clickSender.emit(listToCreate);
