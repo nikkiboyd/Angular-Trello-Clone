@@ -82,6 +82,13 @@
   font-size: 14px;
 }
 
+.header-search {
+  float: left;
+  margin: 0 8px 0 0;
+  position: relative;
+  z-index: 1;
+}
+
 body {
   background-color: #3079BA;
 }
