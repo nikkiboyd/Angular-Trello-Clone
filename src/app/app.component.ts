@@ -11,16 +11,16 @@ import { Board } from './models/board.model';
 
 export class AppComponent {
   currentBoard: string = "My Board";
-  currentProjects: string[] = ['Trello Clone | AngularJS Code Review', 'Recipe Management App | Independent Project'];
+
+  currentProjects: Card[] = [
+    new Card ('Trello Clone | AngularJS Code Review'),
+    new Card ('Recipe Management App | Independent Project'),
+    new Card ('Bjfklsajdksajfl')
+  ]
 
   allLists: List[] = [
-    new List(
-      'Current Projects',
-    ['Trello Clone | AngularJS Code Review', 'Recipe Management App | Independent Project']),
-
-    new List(
-      'Completed Projects',
-    ['DocGawk | BetterDoctor API Code Review', 'ICE Tracker | C# Group Project'])
+    new List('Current Projects'),
+    new List('Completed Projects')
   ];
 
   selectedList = null;
