@@ -9,6 +9,9 @@ This application showcases my AngularJS experience by rebuilding the popular pro
 
 The first phase will focus on creating the view of a new board, including lists with cards.
 
+Below is a screenshot of the project after phase one:
+<img src="trello.png">
+
 # _Specifications_
 
 ### Necessary Features & Functionality
