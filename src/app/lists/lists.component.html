@@ -11,8 +11,8 @@
   <div class="list" *ngFor="let currentList of childAllLists">
     <h4 class="list-header">{{currentList.title}}</h4>
     <ul>
-      <li class="list-card">
-        {{currentList.card}}
+      <li *ngFor="let card of currentList.cards" class="list-card">
+        {{card.title}}
       </li>
     </ul>
     <button class="btn new-card-button">+ Add a card</button>

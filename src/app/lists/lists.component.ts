@@ -11,11 +11,6 @@ export class ListsComponent {
   @Input() childAllLists: List[];
   @Output() clickSender = new EventEmitter();
 
-  currentProjects: Card[] = [
-    new Card('Trello Clone'),
-    new Card('')
-  ];
-
   newList(listToCreate: List) {
     this.clickSender.emit(listToCreate);
   }
