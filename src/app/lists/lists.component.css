@@ -18,6 +18,7 @@
   font-size: 14px;
   line-height: 20px;
   font-weight: 700;
+  margin: 8px;
 }
 
 .header-button {
@@ -28,6 +29,7 @@ font-weight: 700;
 line-height: 32px;
 padding-left: 4px;
 text-decoration: none;
+min-height: 40px;
 }
 
 .new-list-button {
@@ -36,6 +38,16 @@ text-decoration: none;
   margin: 0 4px;
   height: 100%;
   color: #C0D3E4;
+  font-size: 14px;
+  text-align: left;
+}
+
+.new-card-button {
+  background-color: #E2E4E6;
+  width: 268px;
+  margin: 0 4px;
+  height: 100%;
+  color: #8C8C8C;
   font-size: 14px;
   text-align: left;
 }
