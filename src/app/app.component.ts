@@ -10,14 +10,6 @@ import { Board } from './models/board.model';
 })
 
 export class AppComponent {
-  currentBoard: string = "My Board";
-
-  currentProjects: Card[] = [
-    new Card ('Trello Clone | AngularJS Code Review'),
-    new Card ('Recipe Management App | Independent Project'),
-    new Card ('Bjfklsajdksajfl')
-  ]
-
   allLists: List[] = [
     new List('Current Projects'),
     new List('Completed Projects')
