@@ -26,7 +26,7 @@ export class AppComponent {
     new Card(
       'Recipe Management App | Independent Project'
     )
-  ]
+  ];
 
   selectedList = null;
 
