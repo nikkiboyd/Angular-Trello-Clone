@@ -19,7 +19,7 @@ export class AppComponent {
       'Completed Projects')
   ];
 
-  listOneCards: Card[] = [
+  allCards: Card[] = [
     new Card(
       'Trello Clone | AngularJS Code Review'
     ),

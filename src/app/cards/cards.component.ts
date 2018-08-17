@@ -7,7 +7,7 @@ import { Card } from '../models/card.model';
   styleUrls: ['./cards.component.css']
 })
 export class CardsComponent {
-  @Input() childListOneCards: Card[];
+  @Input() childAllCards: Card[];
   @Output() clickSender = new EventEmitter();
 
   newCard(cardToCreate: Card) {
