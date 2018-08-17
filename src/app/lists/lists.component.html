@@ -10,10 +10,11 @@
   <button class="btn new-list-button">+ Add another list</button>
   <div class="list" *ngFor="let currentList of childAllLists">
     <h4 class="list-header">{{currentList.title}}</h4>
-    <div *ngFor="let currentCard of childAllCards">
-      <p>{{currentCard.title}}</p>
-    </div>
-    <app-cards [childCurrentProjects]="currentProjects" (clickSender)="newCard($event)"></app-cards>
+    <ul>
+      <li class="list-card">
+        {{currentList.card}}
+      </li>
+    </ul>
     <button class="btn new-card-button">+ Add a card</button>
   </div>
 </div>

@@ -11,8 +11,8 @@ import { Board } from './models/board.model';
 
 export class AppComponent {
   allLists: List[] = [
-    new List('Current Projects'),
-    new List('Completed Projects')
+    new List('Current Projects', [new Card('Trello Clone')]),
+    new List('Completed Projects', [new Card('DocGawk API')])
   ];
 
   selectedList = null;

@@ -12,10 +12,10 @@ export class ListsComponent {
   @Output() clickSender = new EventEmitter();
 
   currentProjects: Card[] = [
-    new Card('test'),
-    new Card('test again')
+    new Card('Trello Clone'),
+    new Card('')
   ];
-  
+
   newList(listToCreate: List) {
     this.clickSender.emit(listToCreate);
   }
