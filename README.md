@@ -38,16 +38,11 @@ The first phase will focus on creating the view of a new board, including lists 
 ```
 trello-clone  
 └───src
-│   └───app
+│   └───app [will contain main board]
 │       │   app.component.css
 │       │   app.component.html
 │       │   app.component.spec.ts
 │       │   app.module.ts
-│       └───board
-|              │   board.component.css
-│              │   board.component.html
-│              │   board.component.spec.ts
-│              │   board.component.ts
 │       └───cards
 |              │   card.component.css
 │              │   card.component.html
