@@ -13,3 +13,9 @@
     position: relative;
     right: 32px;
   }
+
+li {
+  font-family: Helvetica;
+  font-size: 14px;
+  padding: 4px;
+}
