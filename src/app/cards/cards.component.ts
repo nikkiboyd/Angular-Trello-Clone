@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Card } from '../models/card.model';
 
 @Component({
   selector: 'app-cards',
   templateUrl: './cards.component.html',
   styleUrls: ['./cards.component.css']
 })
-export class CardsComponent implements OnInit {
+export class CardsComponent {
+  @Input() childListOneCards: Card[];
+  @Output() clickSender = new EventEmitter();
 
-  constructor() { }
-
-  ngOnInit() {
+  newCard(cardToCreate: Card) {
+    this.clickSender.emit(cardToCreate);
   }
-
 }
