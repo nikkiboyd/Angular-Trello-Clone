@@ -7,7 +7,7 @@ import { List } from '../models/list.model';
   styleUrls: ['./lists.component.css']
 })
 export class ListsComponent {
-  @Input() child: List[];
+  @Input() childAllLists: List[];
   @Output() clickSender = new EventEmitter();
 
   newList(listToCreate: List) {
