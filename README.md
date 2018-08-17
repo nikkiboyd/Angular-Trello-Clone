@@ -23,10 +23,16 @@ The first phase will focus on creating the view of a new board, including lists 
 | Comments | Displays user name, profile pic, and comment. Have option to edit or delete comment. | Also shows time posted/edited, probably optional feature for now |
 | Activity | Shows history of card, including card creation time, comments, additions, etc. | May become an optional feature depending on time |
 | Additions | Allows user to attach members, labels, checklists, due date, attachments (files) to each card | Everything besides attachments should hopefully be achievable |
-
-
+| Actions | Archive | Essentially 'deletes' card or list from board | Do not have to actually archive them for first phase, removal sufficient |
 
 ### Secondary Features & Functionality
+| Feature | Description | Notes |
+|--|--|--|
+| Dragging items | Trello allows users to drag lists and cards | Not sure how difficult this would be to implement, but it is one main feature of the app |
+| Personalization | Allow user to change background color/image of their board | |
+| Labels | Allow user to assign a label to each card | Can choose color, name, etc. of label and reuse existing labels |
+| Actions | Move, copy, watch | Not critical for first implementation, but would be nice |
+
 
 # _Installation for OSX_
 - Download the repository from GitHub (https://github.com/nikkiboyd/Trello-Clone)
