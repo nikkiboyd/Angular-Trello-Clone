@@ -85,13 +85,13 @@
 #other-btns {
   float: right;
   width: 155px;
-  height: 32px;
+  height: 38px;
+  margin-right: -18px;
 }
 
-/* #search {
-  width: 155px;
-  height: 32px;
-} */
+.container {
+  margin: -12px;
+}
 
 .header-search {
   float: left;
