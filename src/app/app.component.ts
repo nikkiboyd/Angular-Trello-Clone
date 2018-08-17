@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Card } from './models/card.model';
+import { List } from './models/list.model';
+import { Board } from './models/board.model';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +10,7 @@ import { Card } from './models/card.model';
 })
 
 export class AppComponent {
-  masterList: Card[] = [
+  masterBoardList: List[] = [
 
   ];
 
@@ -23,6 +25,6 @@ export class AppComponent {
   }
 
   addCard(newCard: Card) {
-    this.masterList.push(newCard);
+    this.masterBoardList.push(newCard);
   }
 }
