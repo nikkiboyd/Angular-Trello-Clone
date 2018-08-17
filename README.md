@@ -23,7 +23,7 @@ The first phase will focus on creating the view of a new board, including lists 
 | Comments | Displays user name, profile pic, and comment. Have option to edit or delete comment. | Also shows time posted/edited, probably optional feature for now |
 | Activity | Shows history of card, including card creation time, comments, additions, etc. | May become an optional feature depending on time |
 | Additions | Allows user to attach members, labels, checklists, due date, attachments (files) to each card | Everything besides attachments should hopefully be achievable |
-| Actions | Archive | Essentially 'deletes' card or list from board | Do not have to actually archive them for first phase, removal sufficient |
+| Archive | Essentially 'deletes' card or list from board | Do not have to actually archive them for first phase, removal sufficient |
 
 ### Secondary Features & Functionality
 | Feature | Description | Notes |
@@ -32,7 +32,38 @@ The first phase will focus on creating the view of a new board, including lists 
 | Personalization | Allow user to change background color/image of their board | |
 | Labels | Allow user to assign a label to each card | Can choose color, name, etc. of label and reuse existing labels |
 | Actions | Move, copy, watch | Not critical for first implementation, but would be nice |
+| Multiple boards | User can have multiple boards | Would need to implement homepage, so on backlog for now |
 
+### Component Tree
+```
+trello-clone  
+└───src
+│   └───app
+│       │   app.component.css
+│       │   app.component.html
+│       │   app.component.spec.ts
+│       │   app.module.ts
+│       └───board
+|              │   board.component.css
+│              │   board.component.html
+│              │   board.component.spec.ts
+│              │   board.component.ts
+│       └───cards
+|              │   card.component.css
+│              │   card.component.html
+│              │   card.component.spec.ts
+│              │   card.component.ts
+│       └───description
+|              │   description.component.css
+│              │   description.component.html
+│              │   description.component.spec.ts
+│              │   description.component.ts
+│       └───lists
+|              │   lists.component.css
+│              │   lists.component.html
+│              │   lists.component.spec.ts
+│              │   lists.component.ts
+```
 
 # _Installation for OSX_
 - Download the repository from GitHub (https://github.com/nikkiboyd/Trello-Clone)
