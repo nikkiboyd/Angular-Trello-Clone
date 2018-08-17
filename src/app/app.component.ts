@@ -10,8 +10,11 @@ import { Board } from './models/board.model';
 })
 
 export class AppComponent {
-  masterBoardList: List[] = [
-
+  allLists: List[] = [
+    new List(
+      'Today',
+      let allCards = new Card[new Card('Walk the dog')]
+    )
   ];
 
   selectedCard = null;
